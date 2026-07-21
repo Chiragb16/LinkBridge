@@ -19,6 +19,27 @@ The primary goal of this project was to practice high-speed PCB layout technique
 - Designed in KiCad
 
 ---
+---
+
+## Differential Pair Calculations
+
+To achieve reliable **10 Gbps Ethernet communication**, the differential pair dimensions were calculated using **Saturn PCB Toolkit**.
+
+The final routing parameters used were:
+
+- Differential Impedance: **102.4 Ω**
+- Trace Width: **0.105 mm**
+- Trace Spacing: **0.150 mm**
+- Copper Thickness: **35 μm**
+- FR-4 Standard Stackup
+
+These values were selected to closely match the target impedance required for high-speed Ethernet differential signaling.
+
+<p align="center">
+<img src="Calculations.png" width="850">
+</p>
+
+---
 
 ## PCB Preview
 
